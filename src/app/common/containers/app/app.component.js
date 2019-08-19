@@ -7,7 +7,8 @@ export const AppComponent = {
         on-logout="$ctrl.logout($event);"
         button-title="{{$ctrl.button}}">
       </app-nav>
-      <ui-view></ui-view>
+      <h1>hello page</h1>
+      <md-datepicker ng-model="dateDate"></md-datepicker>
     </div>
   `,
   controller: class AppComponent {
@@ -16,6 +17,7 @@ export const AppComponent = {
 
       this.button = null;
       this.user = {};
+      this.dateDate = '2017-04-09'
     }
 
     $onInit() {

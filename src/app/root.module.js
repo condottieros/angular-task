@@ -1,5 +1,8 @@
 import angular from 'angular';
 import uiRouter from '@uirouter/angularjs';
+import ngMaterial from 'angular-material'
+import 'angular-material/angular-material.scss'
+
 import angularLoadingBar from 'angular-loading-bar';
 
 // bootstrap
@@ -12,7 +15,8 @@ const MODULE_NAME = 'root';
 const MODULE_IMPORTS = [
   uiRouter,
   angularLoadingBar,
-  CommonModule
+  CommonModule,
+  ngMaterial
 ];
 
 angular

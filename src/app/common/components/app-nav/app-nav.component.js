@@ -32,7 +32,6 @@ export const AppNavComponent = {
   controller: class AppNavComponent {
     constructor(EventEmitter) {
       'ngInject';
-
       this.EventEmitter = EventEmitter;
     }
 
